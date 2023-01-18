@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-df = pd.read_csv("/content/iriss.csv")
+df = pd.read_csv("C:\Users\LENOVO\Documents")
 df.head()
 df.columns
 df.isnull().sum()
